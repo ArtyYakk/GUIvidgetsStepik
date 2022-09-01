@@ -4,7 +4,8 @@ public class Main {
         //Spinner a = new Spinner();
         //ComboBox a = new ComboBox();
         //RadioButton a = new RadioButton();
-        TextArea a = new TextArea();
+        //TextArea a = new TextArea();
+        Calculator a = new Calculator();
         a.run();
     }
 }
