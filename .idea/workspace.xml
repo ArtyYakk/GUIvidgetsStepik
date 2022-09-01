@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70e31952-35db-414d-ba53-42f3db4a2c63" name="Changes" comment="JComboBox">
-      <change afterPath="$PROJECT_DIR$/src/RadioButton.java" afterDir="false" />
+    <list default="true" id="70e31952-35db-414d-ba53-42f3db4a2c63" name="Changes" comment="JRadioButton">
+      <change afterPath="$PROJECT_DIR$/src/TextArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661802741809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JRadioButton">
+      <created>1661888070278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661888070278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +124,7 @@
     <MESSAGE value="Кликер" />
     <MESSAGE value="JSpinner" />
     <MESSAGE value="JComboBox" />
-    <option name="LAST_COMMIT_MESSAGE" value="JComboBox" />
+    <MESSAGE value="JRadioButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRadioButton" />
   </component>
 </project>

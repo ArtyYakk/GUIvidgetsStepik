@@ -3,7 +3,8 @@ public class Main {
         //Window a = new Window();
         //Spinner a = new Spinner();
         //ComboBox a = new ComboBox();
-        RadioButton a = new RadioButton();
+        //RadioButton a = new RadioButton();
+        TextArea a = new TextArea();
         a.run();
     }
 }
