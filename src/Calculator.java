@@ -121,26 +121,22 @@ public class Calculator extends JFrame {
                 if(x[1].equals("")){
                     if(!x[0].startsWith("0")){
                         x[0] += name;
-                        buf.append(name);
-                        field.setText(buf.toString());
+                        field.setText(x[0] + " " + x[1] + " " + x[2]);
                     }
                 }
                 else{
                     if(!x[2].startsWith("0")){
                         x[2] += name;
-                        buf.append(name);
-                        field.setText(buf.toString());
+                        field.setText(x[0] + " " + x[1] + " " + x[2]);
                     }
                 }
             } else if(name.equals("c")){
-                buf.delete(0,buf.length());
-                field.setText(buf.toString());
+                field.setText("");
                 x = Arrays.stream(x).map(a -> a="").toArray(String[]::new);
             } else if(!x[0].equals("")){
                 if((x[1].equals(""))&&(name.charAt(0) != '=')){
                     x[1] = name;
-                    buf.append(name);
-                    field.setText(buf.toString());
+                    field.setText(x[0] + " " + x[1] + " " + x[2]);
                 } else if((name.charAt(0) == '=')&&(!x[2].equals(""))){
                     switch (x[1]){
                         case "+":
@@ -162,7 +158,6 @@ public class Calculator extends JFrame {
                             break;
                     }
                     x = Arrays.stream(x).map(a -> a="").toArray(String[]::new);
-                    buf.delete(0,buf.length());
                 }
             }
 
