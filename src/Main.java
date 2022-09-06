@@ -1,3 +1,5 @@
+import quiz.Bank;
+
 public class Main {
     public static void main(String[] args) {
         //Window a = new Window();
@@ -5,7 +7,10 @@ public class Main {
         //ComboBox a = new ComboBox();
         //RadioButton a = new RadioButton();
         //TextArea a = new TextArea();
-        Calculator a = new Calculator();
-        a.run();
+        //Calculator a = new Calculator();
+        //a.run();
+        Bank a = new Bank();
+        a.begin();
+
     }
 }
